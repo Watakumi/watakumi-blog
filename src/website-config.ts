@@ -50,9 +50,9 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Ghost',
-  description: 'The professional publishing platform',
+  description: 'Welcome To Watakumi Blog',
   coverImage: 'img/blog-cover.png',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/ghost',
