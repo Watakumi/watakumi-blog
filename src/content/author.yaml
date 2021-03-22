@@ -1,15 +1,6 @@
-- id: Ghost
-  avatar: avatars/ghost.png
-  bio: The professional publishing platform
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: San Francisco
-- id: Another Author
-  avatar: avatars/ghost.png
-  bio: This is another test author with a profile background image
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: San Francisco
-  profile_image: img/alex-knight-326705-unsplash.jpg
+- id: Watakumi
+  avatar: avatars/watakumi.jpeg
+  bio: まだまだ新米エンジニア
+  twitter: Watadayooo__
+  website: https://github.com/Watakumi
+  location: Yokohama
