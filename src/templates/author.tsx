@@ -93,8 +93,8 @@ const Author = ({ data, location }: AuthorTemplateProps) => {
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.id} - ${config.title}`} />
         <meta property="og:url" content={config.siteUrl + location.pathname} />
-        <meta property="article:publisher" content="https://www.facebook.com/ghost" />
-        <meta property="article:author" content="https://www.facebook.com/ghost" />
+        {/* <meta property="article:publisher" content="https://www.facebook.com/ghost" />
+        <meta property="article:author" content="https://www.facebook.com/ghost" /> */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + location.pathname} />
@@ -207,15 +207,7 @@ export const pageQuery = graphql`
       website
       twitter
       bio
-      facebook
       location
-      profile_image {
-        childImageSharp {
-          fluid(maxWidth: 3720) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
       avatar {
         childImageSharp {
           fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
