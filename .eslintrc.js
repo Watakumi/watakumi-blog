@@ -25,5 +25,6 @@ module.exports = {
     '@typescript-eslint/no-unsafe-return': 'off',
     '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/no-confusing-void-expression': 'off',
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
   },
 };
