@@ -63,6 +63,9 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     'gatsby-plugin-feed',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-postcss',
       options: {
