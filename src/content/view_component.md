@@ -6,7 +6,7 @@ tags: ['Ruby on Rails']
 image: img/view_components/component.jpg
 date: '2021-05-29 23:46:37.121'
 draft: false
-excerpt: 現在、Railsでの主要な部分テンプレートの実装方法としてpartialが利用されています。アプリケーションが複雑になると、viewのロジックの豊富さが可読性の低下をもたらします。ここでは、viewのロジックをカプセル化し可読性を高めるための手段としてview_componentを紹介します。
+excerpt: 現在、Railsでの主要な部分テンプレートの実装方法としてpartialが利用されていますが、アプリケーションが複雑になると、viewのロジックの豊富さが可読性の低下をもたらします。ここでは、viewのロジックをカプセル化し可読性を高めるための手段としてview_componentを紹介します。
 ---
 
 ## View Component とは
