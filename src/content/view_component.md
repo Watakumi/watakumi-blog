@@ -119,3 +119,8 @@ end
 
 以上でプレビュー機能を用いて複数のパターンを表示することができました。
 次回は、プレビュー機能を使いながら実際の Rails での使い方について紹介したいと思います。
+
+### 参考文献
+
+- https://github.com/github/view_component
+- https://viewcomponent.org/guide/
