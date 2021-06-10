@@ -74,9 +74,21 @@ const About: React.FC = () => (
                   <br />
                   このブログを開設しました。
                   <br />
-                  "好きなことを好きなだけ"した日々をより多くの人に知ってもらえたら、
-                  <br />
-                  朝起きるのがちょっと得意になりますかね。 - Watakumi
+                </p>
+                <p>
+                  経歴：
+                  <ul>
+                    <li>横浜国立大学を卒業後、横浜国立大学大学院を中退。</li>
+                    <li>Ruby on Railsを主とした自社開発企業に新卒で入社。</li>
+                  </ul>
+                </p>
+                <p>
+                  スキルセット：
+                  <ul>
+                    <li>Ruby / Ruby on Rails の経験: 実務１年</li>
+                    <li>JavaScript</li>
+                    <li>AWS Lambda</li>
+                  </ul>
                 </p>
                 <StaticImage src="../images/roomwear.png" alt="room wear" />
               </div>
