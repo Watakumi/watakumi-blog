@@ -6,7 +6,7 @@ tags: ['Ruby on Rails']
 image: img/view_components/view_component2.jpg
 date: '2021-06-11 01:29:37.121'
 draft: false
-excerpt: 前記事では、view_componentの導入方法とプレビュー機能を利用方法について説明しました。本記事では、実際にアプリケーションで使用する場合にどのようにview_componentを利用すると健全なコンポーネントになるのか私の見解を述べたいと思います。
+excerpt: 前記事では、view_componentの導入方法とプレビュー機能の利用方法について説明しました。本記事では、実際にアプリケーションで使用する場合にどのようにview_componentを利用すると健全なコンポーネントになるのか私の見解を述べたいと思います。
 ---
 
 [前記事](/view_component/)までの知識を前提としています。
