@@ -26,7 +26,6 @@ RUN bundle install -j$(nproc) --quiet
 COPY . /app
 
 EXPOSE 2300
-ENTRYPOINT [ "bundle", "exec" ]
 ```
 
 Ruby のバージョンは 2.7.4 を選択。(3 系だと Hanami でエラーが出るので)
