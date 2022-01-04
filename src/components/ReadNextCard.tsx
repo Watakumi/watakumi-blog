@@ -29,7 +29,9 @@ export interface ReadNextProps {
 
 export const ReadNextCard: React.FC<ReadNextProps> = props => {
   // filter out current post and limit to 3 related posts
-  const relatedPosts = props.relatedPosts.edges.filter(post => post.node.fields.slug !== props.currentPageSlug).slice(0, 3);
+  const relatedPosts = props.relatedPosts.edges
+    .filter(post => post.node.fields.slug !== props.currentPageSlug)
+    .slice(0, 3);
 
   return (
     <ReadNextCardArticle className="read-next-card">
@@ -86,10 +88,7 @@ const ReadNextCardArticle = styled.article`
     color(var(--darkgrey) l(+2%)),
     color(var(--darkgrey) l(-5%))
   ); */
-  background: linear-gradient(
-    ${lighten('0.02', colors.darkgrey)},
-    ${lighten('-0.05', colors.darkgrey)}
-  );
+  background: linear-gradient(${lighten('0.02', colors.blue)}, ${lighten('-0.05', colors.blue)});
   border-radius: 3px;
 
   a {

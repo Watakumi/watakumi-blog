@@ -99,10 +99,10 @@ export const PostFullContent = styled.section`
 
   a {
     /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
+    color: ${colors.blue};
     word-break: break-word;
     /* box-shadow: var(--darkgrey) 0 -1px 0 inset; */
-    box-shadow: ${colors.darkgrey} 0 -1px 0 inset;
+    box-shadow: ${colors.blue} 0 -1px 0 inset;
     transition: all 0.2s ease-in-out;
   }
 
@@ -117,7 +117,7 @@ export const PostFullContent = styled.section`
   strong,
   em {
     /* color: color(var(--darkgrey) l(-5%)); */
-    color: ${lighten('-0.05', colors.darkgrey)};
+    color: ${lighten('-0.05', colors.blue)};
   }
 
   small {
@@ -198,13 +198,13 @@ export const PostFullContent = styled.section`
     padding: 20px;
     max-width: 100%;
     /* border: color(var(--darkgrey) l(-10%)) 1px solid; */
-    /* border: ${lighten('-0.1', colors.darkgrey)} 1px solid; */
+    /* border: ${lighten('-0.1', colors.blue)} 1px solid; */
     /* color: var(--whitegrey); */
     color: ${colors.whitegrey};
     font-size: 1.4rem;
     line-height: 1.5em;
     /* background: color(var(--darkgrey) l(-3%)); */
-    /* background: ${lighten('-0.03', colors.darkgrey)}; */
+    /* background: ${lighten('-0.03', colors.blue)}; */
     border-radius: 5px;
   }
 
@@ -258,7 +258,7 @@ export const PostFullContent = styled.section`
   h5,
   h6 {
     /* color: color(var(--darkgrey) l(-5%)); */
-    color: ${lighten('-0.05', colors.darkgrey)};
+    color: ${lighten('-0.05', colors.blue)};
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
       'Open Sans', 'Helvetica Neue', sans-serif;
   }
@@ -464,7 +464,7 @@ export const PostFullContent = styled.section`
 
     code {
       color: #fff;
-      background: #000;
+      background: ${colors.blue};
     }
 
     hr {

@@ -24,7 +24,7 @@ export const SiteNavMain = css`
   left: 0;
   z-index: 1000;
   /* background: color(var(--darkgrey) l(-5%)); */
-  background: ${lighten('-0.05', colors.darkgrey)};
+  background: ${lighten('-0.05', colors.blue)};
 `;
 
 export const SiteMain = css`
@@ -125,7 +125,7 @@ export const SiteHeaderStyles = css`
   padding-bottom: 12px;
   color: #fff;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${lighten('-0.05', colors.darkgrey)} no-repeat center center;
+  background: ${lighten('-0.05', colors.blue)} no-repeat center center;
   background-size: cover;
 
   :before {
@@ -239,7 +239,7 @@ export const ResponsiveHeaderBackground = styled.div<{ backgroundImage?: string 
     padding-top: 0;
     padding-bottom: 0;
     /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
+    color: ${colors.blue};
     background: #fff;
     opacity: 1;
 
@@ -270,7 +270,7 @@ export const ResponsiveHeaderBackground = styled.div<{ backgroundImage?: string 
 
   .author-social-link a {
     /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
+    color: ${colors.blue};
   }
 
   .author-social-link a:before {
@@ -332,7 +332,7 @@ export const NoImage = css`
     padding-top: 0;
     padding-bottom: 0;
     /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
+    color: ${colors.blue};
     background: #fff;
     opacity: 1;
   }
@@ -363,7 +363,7 @@ export const NoImage = css`
 
   .no-image .author-social-link a {
     /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
+    color: ${colors.blue};
   }
 
   .no-image .author-social-link a:before {

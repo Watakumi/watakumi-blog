@@ -154,7 +154,9 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
           />
         )}
         <meta name="twitter:label1" content="Written by" />
-        {post.frontmatter.author[0] && <meta name="twitter:data1" content={post.frontmatter.author[0].id} />}
+        {post.frontmatter.author[0] && (
+          <meta name="twitter:data1" content={post.frontmatter.author[0].id} />
+        )}
         <meta name="twitter:label2" content="Filed under" />
         {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
         {config.twitter && (
@@ -371,12 +373,12 @@ const PostFullByline = styled.div`
 
   .post-full-byline-meta h4 a {
     /* color: color(var(--darkgrey) l(+10%)); */
-    color: ${lighten('0.1', colors.darkgrey)};
+    color: ${lighten('0.1', colors.blue)};
   }
 
   .post-full-byline-meta h4 a:hover {
     /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
+    color: ${colors.blue};
   }
 
   .post-full-byline-meta .bull {
@@ -401,7 +403,7 @@ const PostFullByline = styled.div`
 
 export const PostFullTitle = styled.h1`
   margin: 0 0 0.2em;
-  color: ${setLightness('0.05', colors.darkgrey)};
+  color: ${setLightness('0.05', colors.blue)};
   @media (max-width: 500px) {
     margin-top: 0.2em;
     font-size: 3.3rem;

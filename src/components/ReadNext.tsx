@@ -59,7 +59,7 @@ export const ReadNext = ({ relatedPosts, currentPageSlug, tags, pageContext }: R
 const ReadNextAside = styled.aside`
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   /* background: color(var(--darkgrey) l(-5%)); */
-  background: ${lighten('-0.05', colors.darkgrey)};
+  background: ${lighten('-0.05', colors.blue)};
 
   .post-card {
     padding-bottom: 0;
@@ -93,10 +93,10 @@ const ReadNextAside = styled.aside`
     color: rgba(255, 255, 255, 0.8);
   }
   .author-avatar {
-    border-color: ${lighten('-0.05', colors.darkgrey)};
+    border-color: ${lighten('-0.05', colors.blue)};
   }
   .author-profile-image {
-    background: ${lighten('-0.05', colors.darkgrey)};
+    background: ${lighten('-0.05', colors.blue)};
   }
 
   @media (max-width: 650px) {

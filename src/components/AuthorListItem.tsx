@@ -116,7 +116,7 @@ const AuthorNameTooltip = styled.div`
   letter-spacing: 0.2px;
   white-space: nowrap;
   /* background: var(--darkgrey); */
-  background: ${colors.darkgrey};
+  background: ${colors.blue};
   border-radius: 3px;
   box-shadow: rgba(39, 44, 49, 0.08) 0 12px 26px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
   opacity: 0;
@@ -236,6 +236,6 @@ const AuthorAvatar = css`
 
   @media (prefers-color-scheme: dark) {
     /* border-color: color(var(--darkgrey) l(+2%)); */
-    border-color: ${lighten('0.02', colors.darkgrey)};
+    border-color: ${lighten('0.02', colors.blue)};
   }
 `;

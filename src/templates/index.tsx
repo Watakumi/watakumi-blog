@@ -25,6 +25,7 @@ import {
 } from '../styles/shared';
 import config from '../website-config';
 import { PageContext } from './post';
+import { colors } from '../styles/colors';
 
 export interface IndexProps {
   pageContext: {
@@ -94,7 +95,7 @@ const IndexPage: React.FC<IndexProps> = props => {
           css={[outer, SiteHeader, SiteHeaderStyles]}
           className="site-header-background"
           style={{
-            backgroundImage: `url('${props.data.header.childImageSharp.fixed.src}')`,
+            background: `${colors.blue}`,
           }}
         >
           <div css={inner}>

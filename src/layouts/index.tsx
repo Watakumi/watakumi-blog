@@ -371,7 +371,7 @@ const IndexLayout: React.FC<IndexProps> = props => {
             float: left;
             margin: 0 20px 0 0;
             width: 120px;
-            color: ${colors.darkgrey};
+            color: ${colors.blue};
             font-weight: 500;
             text-align: right;
           }

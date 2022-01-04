@@ -33,7 +33,11 @@ export const Footer: React.FC = () => {
             </a>
           )}
 
-          <a href="https://github.com/scttcper/gatsby-casper" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/scttcper/gatsby-casper"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Casper
           </a>
 
@@ -49,7 +53,7 @@ const SiteFooter = css`
   padding-top: 20px;
   padding-bottom: 60px;
   color: #fff;
-  background: ${setLightness('0.0015', colors.darkgrey)};
+  background: ${colors.blue};
 `;
 
 const SiteFooterContent = css`
@@ -100,4 +104,3 @@ const SiteFooterNav = styled.nav`
     }
   }
 `;
-

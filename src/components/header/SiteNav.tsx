@@ -147,7 +147,7 @@ export const SiteNavMain = css`
   left: 0;
   z-index: 1000;
   /* background: color(var(--darkgrey) l(-5%)) */
-  background: ${darken('0.05', colors.darkgrey)};
+  background: ${colors.blue};
 
   @media (max-width: 700px) {
     padding-right: 0;

@@ -173,7 +173,7 @@ const PostCardContentLink = css`
   position: relative;
   display: block;
   /* color: var(--darkgrey); */
-  color: ${colors.darkgrey};
+  color: ${colors.blue};
 
   :hover {
     text-decoration: none;
@@ -234,7 +234,7 @@ const PostCardBylineContent = styled.div`
 
   a {
     /* color: color(var(--darkgrey) l(+20%)); */
-    color: ${lighten('0.2', colors.darkgrey)};
+    color: ${lighten('0.2', colors.blue)};
     font-weight: 600;
   }
 
