@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-child-element-spacing */
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -70,7 +71,7 @@ const About: React.FC = () => (
                   <br />
                   好きなことを好きなだけさせてもらえる日々を過ごしております。
                   <br />
-                  自分の選択が間違っていなかったと言えるような"何か"を残せるように
+                  自分の選択が間違っていなかったと言えるような&rdquo;何か&rdquo;を残せるように
                   <br />
                   このブログを開設しました。
                   <br />
