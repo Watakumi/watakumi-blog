@@ -24,7 +24,7 @@ export const SiteNavMain = css`
   left: 0;
   z-index: 1000;
   /* background: color(var(--darkgrey) l(-5%)); */
-  background: ${lighten('-0.05', colors.blue)};
+  background: ${colors.blue};
 `;
 
 export const SiteMain = css`
@@ -125,7 +125,7 @@ export const SiteHeaderStyles = css`
   padding-bottom: 12px;
   color: #fff;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${lighten('-0.05', colors.blue)} no-repeat center center;
+  background: ${colors.blue} no-repeat center center;
   background-size: cover;
 
   :before {
@@ -137,7 +137,6 @@ export const SiteHeaderStyles = css`
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0, 0, 0, 0.18);
   }
   :after {
     content: '';
@@ -149,7 +148,6 @@ export const SiteHeaderStyles = css`
     z-index: 10;
     display: block;
     height: 140px;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
   }
 
   @media (prefers-color-scheme: dark) {
@@ -222,7 +220,6 @@ export const ResponsiveHeaderBackground = styled.div<{ backgroundImage?: string 
       z-index: 10;
       display: block;
       height: 140px;
-      background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
     }
 
     @media (prefers-color-scheme: dark) {

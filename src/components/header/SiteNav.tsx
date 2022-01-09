@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { darken } from 'polished';
+// import { darken } from 'polished';
 import React from 'react';
 
 import { css } from '@emotion/react';
