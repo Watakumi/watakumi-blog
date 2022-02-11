@@ -80,15 +80,21 @@ const About: React.FC = () => (
                   経歴：
                   <ul>
                     <li>横浜国立大学を卒業後、横浜国立大学大学院を中退。</li>
-                    <li>Ruby on Railsを主とした自社開発企業に新卒で入社。</li>
+                    <li>2020/4 Ruby on Railsを主とした自社開発企業に新卒で入社。</li>
                   </ul>
                 </p>
                 <p>
                   スキルセット：
                   <ul>
-                    <li>Ruby / Ruby on Rails の経験: 実務１年</li>
-                    <li>JavaScript</li>
-                    <li>AWS Lambda</li>
+                    <li>Ruby / Ruby on Rails の経験: 実務2年</li>
+                    <li>PostgreSQLを使った開発: 実務1年</li>
+                    <li>JavaScriptを使った開発: 実務1年</li>
+                    <li>React/TypeScript</li>
+                    <li>Howwire/Turbo/Stimulus</li>
+                    <li>AWSを使ったサーバーの構築</li>
+                    <li>Dockerを使った開発環境の整備・Deploy</li>
+                    <li>WordPressを使ったサーバーの構築</li>
+                    <li>静的サイトの作成とデプロイ</li>
                   </ul>
                 </p>
                 <StaticImage src="../images/roomwear.png" alt="room wear" />
